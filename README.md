@@ -37,7 +37,7 @@ dependencies {
     <intent-filter>
         <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
     </intent-filter>
-</service>
+  </service>
  ```
  
  4) At the end, you'll download a google-services.json file. You can download this file again at any time from this link https://support.google.com/firebase/answer/7015592 .
