@@ -21,8 +21,10 @@ dependencies {
 ```
    and add google-services module at the end of you app-level build.gradle
 
-    ```html
+ ```html
+
  apply plugin: 'com.google.gms.google-services'
+ 
 ```
 
 3) Add this 2 service in your meanfieast.xml
@@ -33,9 +35,6 @@ dependencies {
         <action android:name="com.google.firebase.MESSAGING_EVENT"/>
     </intent-filter>
 </service>
- 
-
-...
 
   <service
     android:name=".MyFirebaseInstanceIDService">
@@ -43,6 +42,7 @@ dependencies {
         <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
     </intent-filter>
   </service>
+
  ```
  
  4) At the end, you'll download a google-services.json file. You can download this file again at any time from this link https://support.google.com/firebase/answer/7015592 .
