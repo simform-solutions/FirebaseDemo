@@ -19,6 +19,11 @@ dependencies {
      compile 'com.google.firebase:firebase-messaging:9.2.1'
 }
 ```
+   and add google-services module at the end of you app-level build.gradle
+
+    ```html
+ apply plugin: 'com.google.gms.google-services'
+```
 
 3) Add this 2 service in your meanfieast.xml
 ```html
