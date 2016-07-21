@@ -19,14 +19,19 @@ android {
     }
 }
 
+ext{
+    SUPPORT_LIBRARY_VERSION = "24.1.0"
+}
+
+
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
-    compile 'com.android.support:appcompat-v7:24.0.0'
+    compile "com.android.support:appcompat-v7:$SUPPORT_LIBRARY_VERSION"
     compile 'com.android.support.constraint:constraint-layout:1.0.0-alpha3'
     testCompile 'junit:junit:4.12'
     androidTestCompile 'com.android.support.test.espresso:espresso-core:2.2.2'
     androidTestCompile 'com.android.support.test:runner:0.5'
-    androidTestCompile 'com.android.support:support-annotations:24.0.0'
+    androidTestCompile "com.android.support:support-annotations:$SUPPORT_LIBRARY_VERSION"
     compile 'com.google.firebase:firebase-messaging:9.2.1'
 }
 
