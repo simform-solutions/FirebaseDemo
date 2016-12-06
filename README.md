@@ -48,4 +48,4 @@ dependencies {
  4) At the end, you'll download a google-services.json file. You can download this file again at any time from this link https://support.google.com/firebase/answer/7015592 .
 
 
- You can check notification using this <a href="http://demo.simformsolutions.com:60000/androidpush/">testing environment</a>.
+ You can check notification using this <a href="http://simform.solutions/androidpush/">testing environment</a>.
